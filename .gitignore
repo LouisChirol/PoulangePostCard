@@ -159,5 +159,16 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+.gitignore
 raw/*
 cropped/*
+ocr_input/*
+ocr_label/*
+snippets/*
+metadata/*
+
+!cropped/1_recto_cropped.jpg
+!cropped/1_verso_cropped.jpg
+!metadata/1_metadata.json
+!ocr_input/11_verso_ocr_input.jpg
+!snippets/11_verso_ocr_input.jpg
